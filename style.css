@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.main-navi-1 {
+  /* border: 2px solid red; */
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-navi-1:hover {
+  background-color: lawngreen;
+}
+
+.main-navi-1 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-navi-1 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+
+.main-navi-1 a:hover {
+  color: black;
+}
+
+.main-header-2 {
+  /* border: 2px solid red; */
+  color: lawngreen;
+  text-shadow: 2px 2px 6px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./Images/johannes-plenio-head.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-header-2 h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-header-2 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-header-2 a {
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-header-2 a:hover {
+  color: black;
+}
+
+.main-iframes-3 {
+  background-image: url("./Images/jr-korpa-iframes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  padding: 10px;
+}
+
+.main-about-5 {
+  /* border: 2px solid red; */
+  color: aliceblue;
+  font-family: "Special Elite", cursive;
+  font-size: 22px;
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.main-about-5 h2 {
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-about-5 table {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main-table-6,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 10px auto;
+  padding: 5px 50px;
+  text-align: center;
+}
+
+th {
+  background-color: aquamarine;
+}
+
+td {
+  background-color: whitesmoke;
+}
+
+p {
+  padding: 5px;
+}
+
+.main-inspiration-6 {
+  background-image: url("./Images/joshua-earle-inspiration.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 6px black;
+}
+
+.foot-navi-7 {
+  background-color: black;
+  display: flex;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+.foot-navi-7-2 {
+  border: 2px solid red;
+  position: fixed;
+  right: 5px;
+  bottom: 30px;
+  background-color: black;
+  color: white;
+}
+
+.foot-navi-7:hover {
+  background-color: darkslategray;
+  color: black;
+}
+
+.foot-navi-7 a {
+  color: brown;
+  text-decoration: none;
+  font-size: 16px;
+}
